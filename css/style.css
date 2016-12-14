@@ -9,14 +9,13 @@ body{
 .conteiner {
   margin: 0 auto;
   margin-top: 15px;
-  padding: 25px 50px 50px;
+  padding: 0 50px 50px;
   max-width: 650px;
   border: 2px solid cornflowerblue;
   border-radius: 5px;
 }
 .tab-pane {
   padding: 20px;
-
   background-color: #fff;
   border: 1px solid #ddd;
   border-top: none;
@@ -43,7 +42,9 @@ body{
   color: #fff;
   background-color: cornflowerblue;
 }
-
+h4 {
+  padding-top: 15px;
+}
 p {
   height: 200px;
   padding: 15px;
@@ -51,4 +52,39 @@ p {
 }
 #messages p{
   overflow-y: scroll;
+}
+#task__form {
+  margin-top: 20px;
+  padding: 20px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+#task__form .form-group {
+  display: flex;
+
+}
+#task__form .form-control {
+  width: 198px;
+}
+#task__form .form-group {
+  font-size: 14px;
+}
+#task__form .btn-default:hover {
+  color: #fff;
+  background-color: cornflowerblue;
+}
+.toolTip {
+  width: 233px;
+  margin: 0 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px 5px;
+  box-sizing: border-box;
+  box-shadow: 0 0 5px cornflowerblue;
+  color: cornflowerblue;
+  display: none;
+}
+#btnShow {
+  background: #ddd;
+  border-color: cornflowerblue;
 }
